@@ -56,7 +56,7 @@ export default function App() {
       idade='31'
       rede_social='alice_v_design'
       endereco='Rua da Alegria, 1500'
-      img='perfil05'
+      img='perfil00'
     />
 
     <CartaoUsuario
@@ -198,6 +198,147 @@ export default function App() {
       idade='36'
       rede_social='tiagonunes_reparos'
       endereco='Rua das Ferramentas, 99'
+      img='perfil00'
+    />
+
+    <CartaoUsuario
+      nome='Alexandre Faria'
+      idade='39'
+      rede_social='alex.faria_arte'
+      endereco='Rua dos Pintores, 303'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Beatriz Costa'
+      idade='50'
+      rede_social='bea_costa_reforma'
+      endereco='Av. do Construtor, 12'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Cássio Mendes'
+      idade='25'
+      rede_social='cassiomendes_vlog'
+      endereco='Ladeira da Colina, 45, Apt. 1C'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Denise Rocha'
+      idade='62'
+      rede_social='denise.rocha.flores'
+      endereco='Estrada das Hortênsias, KM 10'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Eduardo Sales'
+      idade='18'
+      rede_social='eduardosales_skate'
+      endereco='Rua Radical, 999'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Fernanda Melo'
+      idade='41'
+      rede_social='fernanda_melo_pets'
+      endereco='Praça dos Animais, 7'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Guilherme Dias'
+      idade='48'
+      rede_social='guilhermedias_cons'
+      endereco='Av. da Indústria, 2500, Galpão A'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Helena Lopes'
+      idade='30'
+      rede_social='helenalopes_saude'
+      endereco='Rua do Bem Estar, 500'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Igor Pereira'
+      idade='53'
+      rede_social='igor.p_marcenaria'
+      endereco='Travessa da Madeira, 8'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Jéssica Souza'
+      idade='23'
+      rede_social='jessica_s_eventos'
+      endereco='Rua da Festa, 13'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Kleber Rangel'
+      idade='34'
+      rede_social='kleberrangel_moto'
+      endereco='Av. dos Pilotos, 10'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Lívia Paes'
+      idade='46'
+      rede_social='liviapaes_nutri'
+      endereco='Rua da Alimentação, 2'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Maurício Reis'
+      idade='27'
+      rede_social='mauricio.reis.ecom'
+      endereco='Rua da Loja Virtual, 15'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Natália Guedes'
+      idade='65'
+      rede_social='natguedes_jardinagem'
+      endereco='Chácara da Paz, S/N'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Otávio Pimenta'
+      idade='43'
+      rede_social='otavio_pimenta_hist'
+      endereco='Rua do Conhecimento, 70'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Patrícia Silva'
+      idade='20'
+      rede_social='pati_silva_dança'
+      endereco='Av. do Ritmo, 35'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Queiroz Neto'
+      idade='32'
+      rede_social='qneto_publicidade'
+      endereco='Rua do Marketing, 100'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Renata Alves'
+      idade='57'
+      rede_social='renata_alves_costura'
+      endereco='Rua do Tecido, 44'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Samuel Teixeira'
+      idade='28'
+      rede_social='samuelteixeira_vidro'
+      endereco='Av. da Transparência, 20'
+      img='perfil00'
+    />
+<CartaoUsuario
+      nome='Tainá Oliveira'
+      idade='37'
+      rede_social='taina.oli_familia'
+      endereco='Rua da Comunidade, 1200'
       img='perfil00'
     />
   </ScrollView>
