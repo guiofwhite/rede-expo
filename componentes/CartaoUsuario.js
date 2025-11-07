@@ -17,7 +17,8 @@ export default function CartãoUsuario({ nome, idade, rede_social, endereco, img
 const estilos = StyleSheet.create({
     cartao: {
         backgroundColor: '#e1f7f7',
-        display: 'flex',
+        display: 'table-caption',
+        display:'flex',
         justifyContent: 'right',
         padding: 20,
         marginTop: 15,
