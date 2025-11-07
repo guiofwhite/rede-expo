@@ -19,11 +19,11 @@ const estilos = StyleSheet.create({
     cartao: {
         backgroundColor: '#a8bd5bff',
         display: 'table-caption',
-        display:'flex',
+        display:'',
         padding: 5,
         marginTop: 20,
         borderRadius: 200,
-        alignItems: 'center',
+        alignItems: '',
         shadowColor: '#000',
         shadowOpacity: 5.5,
         shadowOffset: { width: 0, height: 2 },
