@@ -23,7 +23,7 @@ const estilos = StyleSheet.create({
         padding: 5,
         marginTop: 20,
         borderRadius: 200,
-        alignItems: '',
+        alignItems: 'center',
         shadowColor: '#000',
         shadowOpacity: 5.5,
         shadowOffset: { width: 0, height: 2 },
