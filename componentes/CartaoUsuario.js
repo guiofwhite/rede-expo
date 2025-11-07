@@ -21,7 +21,7 @@ const estilos = StyleSheet.create({
         display:'flex',
         padding: 5,
         marginTop: 20,
-        borderRadius: 80,
+        borderRadius: 150,
         alignItems: 'center',
         shadowColor: '#000',
         shadowOpacity: 5.5,
@@ -41,7 +41,7 @@ const estilos = StyleSheet.create({
         fontWeight: 'bold',
     },
 
-    descricao: {
+    endereco: {
         fontSize: 14,
         color: '#555',
         textAlign: 'center',
