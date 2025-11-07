@@ -15,19 +15,20 @@ export default function CartãoUsuario({ nome, idade, rede_social, endereco, img
 }
 
 const estilos = StyleSheet.create({
+
     cartao: {
-        backgroundColor: '#a14b1aff',
+        backgroundColor: '#a8bd5bff',
         display: 'table-caption',
         display:'flex',
         padding: 5,
         marginTop: 20,
-        borderRadius: 150,
+        borderRadius: 200,
         alignItems: 'center',
         shadowColor: '#000',
         shadowOpacity: 5.5,
         shadowOffset: { width: 0, height: 2 },
-        shadowRadius: 5,
-        elevation: 5,
+        shadowRadius: 15,
+        elevation: 15,
     },
     foto: {
         width: 80,
@@ -43,7 +44,7 @@ const estilos = StyleSheet.create({
 
     endereco: {
         fontSize: 14,
-        color: '#555',
+        color: '#000000ff',
         textAlign: 'center',
     },
 });
