@@ -56,7 +56,7 @@ export default function App() {
       idade='31'
       rede_social='alice_v_design'
       endereco='Rua da Alegria, 1500'
-      img='perfil00'
+      img='perfil01'
     />
 
     <CartaoUsuario
@@ -72,7 +72,7 @@ export default function App() {
       idade='24'
       rede_social='clara_fotografa'
       endereco='Rua Sete de Setembro, 2024'
-      img='perfil00'
+      img='perfil02'
     />
 
     <CartaoUsuario
@@ -88,7 +88,7 @@ export default function App() {
       idade='19'
       rede_social='e_freitas_musica'
       endereco='Travessa da Ponte, 120'
-      img='perfil00'
+      img='perfil02'
    />
 
     <CartaoUsuario
@@ -104,7 +104,7 @@ export default function App() {
       idade='45'
       rede_social='giovanarios_prof'
       endereco='Av. Paulista, 1000, 15º Andar'
-      img='perfil00'
+      img='perfil01'
     />
 
     <CartaoUsuario
@@ -120,7 +120,7 @@ export default function App() {
       idade='51'
       rede_social='isa_santos_turismo'
       endereco='Estrada do Sol, KM 5'
-      img='perfil00'
+      img='perfil02'
     />
 
     <CartaoUsuario
@@ -135,7 +135,7 @@ export default function App() {
       idade='33'
       rede_social='karina_leal_adv'
       endereco='Rua da Justiça, 987, Sala 5'
-      img='perfil00'
+      img='perfil01'
     />
     <CartaoUsuario
       nome='Lucas Rocha'
@@ -149,7 +149,7 @@ export default function App() {
       idade='22'
       rede_social='mari_alves_moda'
       endereco='Rua Fashion, 700'
-      img='perfil00'
+      img='perfil01'
     />
     <CartaoUsuario
       nome='Nelson Pires'
@@ -163,7 +163,7 @@ export default function App() {
       idade='40'
       rede_social='oliviagomes_yoga'
       endereco='Rua Zen, 11'
-      img='perfil00'
+      img='perfil01'
     />
     <CartaoUsuario
       nome='Paulo Zeca'
@@ -177,7 +177,7 @@ export default function App() {
       idade='37'
       rede_social='quiteriab_cabelo'
       endereco='Rua da Beleza, 88'
-      img='perfil00'
+      img='perfil02'
     />
     <CartaoUsuario
       nome='Ricardo Matos'
@@ -191,7 +191,7 @@ export default function App() {
       idade='27'
       rede_social='sofiate_escritora'
       endereco='Rua dos Livros, 40'
-      img='perfil00'
+      img='perfil01'
     />
     <CartaoUsuario
       nome='Tiago Nunes'
@@ -213,7 +213,7 @@ export default function App() {
       idade='50'
       rede_social='bea_costa_reforma'
       endereco='Av. do Construtor, 12'
-      img='perfil00'
+      img='perfil02'
     />
 <CartaoUsuario
       nome='Cássio Mendes'
@@ -227,7 +227,7 @@ export default function App() {
       idade='62'
       rede_social='denise.rocha.flores'
       endereco='Estrada das Hortênsias, KM 10'
-      img='perfil00'
+      img='perfil02'
     />
 <CartaoUsuario
       nome='Eduardo Sales'
@@ -241,7 +241,7 @@ export default function App() {
       idade='41'
       rede_social='fernanda_melo_pets'
       endereco='Praça dos Animais, 7'
-      img='perfil00'
+      img='perfil01'
     />
 <CartaoUsuario
       nome='Guilherme Dias'
@@ -255,7 +255,7 @@ export default function App() {
       idade='30'
       rede_social='helenalopes_saude'
       endereco='Rua do Bem Estar, 500'
-      img='perfil00'
+      img='perfil01'
     />
 <CartaoUsuario
       nome='Igor Pereira'
@@ -269,7 +269,7 @@ export default function App() {
       idade='23'
       rede_social='jessica_s_eventos'
       endereco='Rua da Festa, 13'
-      img='perfil00'
+      img='perfil02'
     />
 <CartaoUsuario
       nome='Kleber Rangel'
@@ -283,7 +283,7 @@ export default function App() {
       idade='46'
       rede_social='liviapaes_nutri'
       endereco='Rua da Alimentação, 2'
-      img='perfil00'
+      img='perfil01'
     />
 <CartaoUsuario
       nome='Maurício Reis'
@@ -297,7 +297,7 @@ export default function App() {
       idade='65'
       rede_social='natguedes_jardinagem'
       endereco='Chácara da Paz, S/N'
-      img='perfil00'
+      img='perfil01'
     />
 <CartaoUsuario
       nome='Otávio Pimenta'
@@ -311,7 +311,7 @@ export default function App() {
       idade='20'
       rede_social='pati_silva_dança'
       endereco='Av. do Ritmo, 35'
-      img='perfil00'
+      img='perfil02'
     />
 <CartaoUsuario
       nome='Queiroz Neto'
@@ -325,7 +325,7 @@ export default function App() {
       idade='57'
       rede_social='renata_alves_costura'
       endereco='Rua do Tecido, 44'
-      img='perfil00'
+      img='perfil01'
     />
 <CartaoUsuario
       nome='Samuel Teixeira'
@@ -339,7 +339,7 @@ export default function App() {
       idade='37'
       rede_social='taina.oli_familia'
       endereco='Rua da Comunidade, 1200'
-      img='perfil00'
+      img='perfil01'
     />
   </ScrollView>
 
