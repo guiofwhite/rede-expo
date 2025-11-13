@@ -1,8 +1,15 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, TouchableOpacity, Alert } from "react-native";
 import fotos from '../img/fotos';
 
 export default function CartãoUsuario({ nome, idade, rede_social, endereco, img }) {
+    
+    // Função que será chamada quando o botão for pressionado
+    const lidarComClique = () => {
+        Alert.alert("Ação do Botão", `Você clicou no perfil de ${nome}!`);
+        // Aqui você colocaria a lógica de navegação ou outra ação
+    };
+
     return (
         <View style={estilos.cartao}>
             <Image source={fotos[img]} style={estilos.foto} />
@@ -10,6 +17,13 @@ export default function CartãoUsuario({ nome, idade, rede_social, endereco, img
             <Text style={estilos.idade}>{idade}</Text>
             <Text style={estilos.rede_social}>{rede_social}</Text>
             <Text style={estilos.endereco}>{endereco}</Text>
+            
+            <TouchableOpacity 
+                style={estilos.botao} 
+                onPress={lidarComClique}
+            >
+                <Text style={estilos.textoBotao}>Ver Perfil</Text>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -17,10 +31,11 @@ export default function CartãoUsuario({ nome, idade, rede_social, endereco, img
 const estilos = StyleSheet.create({
 
     cartao: {
-        backgroundColor: '#a8bd5bff',
-        display: 'table-caption',
-        display:'',
-        padding: 5,
+        width: 300,
+        height: 400,
+        backgroundColor: '#bac2c2ff',
+        padding: 60,
+        marginLeft: 65,
         marginTop: 20,
         borderRadius: 200,
         alignItems: 'center',
@@ -46,5 +61,25 @@ const estilos = StyleSheet.create({
         fontSize: 14,
         color: '#000000ff',
         textAlign: 'center',
+    },
+    
+    // Estilos do novo botão
+    botao: {
+        marginTop: 15,
+        backgroundColor: '#5b82a8',
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 5,
+        elevation: 5, 
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+    },
+    
+    textoBotao: {
+        color: '#ffffff',
+        fontSize: 16,
+        fontWeight: 'bold',
     },
 });

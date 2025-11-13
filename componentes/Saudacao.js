@@ -2,7 +2,7 @@ import React from "react";
 import { Text } from "react-native";
 export default function Saudacao({nome}){
     return(
-        <Text style={{fontSize:18, marginBottom:5, marginLeft:'47dvw'}}>
+        <Text style={{fontSize:18, marginBottom:5, marginLeft:'35.9dvw'}}>
             Olá {nome}
         </Text>
     )
