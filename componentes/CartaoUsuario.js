@@ -4,10 +4,8 @@ import fotos from '../img/fotos';
 
 export default function CartãoUsuario({ nome, idade, rede_social, endereco, img }) {
     
-    // Função que será chamada quando o botão for pressionado
     const lidarComClique = () => {
         Alert.alert("Ação do Botão", `Você clicou no perfil de ${nome}!`);
-        // Aqui você colocaria a lógica de navegação ou outra ação
     };
 
     return (
@@ -63,7 +61,6 @@ const estilos = StyleSheet.create({
         textAlign: 'center',
     },
     
-    // Estilos do novo botão
     botao: {
         marginTop: 15,
         backgroundColor: '#5b82a8',
